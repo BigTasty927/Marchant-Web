@@ -1,12 +1,12 @@
-# Marchant Web '24
+# Portfolio Starter (Marchant-Web base)
 
 ![Homepage Screenshot](public/cover.jpg)
 
-This repo contains the latest code for [MarchantWeb.com](https://marchantweb.com). It's a Nuxt 3 project that centers around a WebGL visualization that ebs and flows into each page.
+This is a Nuxt 3 portfolio starter derived from Marchant-Web, with content replaced by placeholders. It centers around a WebGL visualization with GSAP animations and AOS scroll effects.
 
 I've made the code open-source, with the obvious caveat that it's meant to act as a reference for learning and developing your own creative website, and that you cannot clone it and pretend to be me.
 
-For the sake of security, the connection to Notion's API is abstracted behind a service at `api.marchantweb.com`, which is not open-source. You won't find any secret keys here.
+All data is local under `public/data` and no external API keys are required.
 
 ### Technology 🚀
 

@@ -21,7 +21,7 @@
 import {useHead} from "nuxt/app";
 
 useHead({
-  title: 'Home — Simon Le Marchant',
+  title: 'Home — Your Name',
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   lang: 'en-US',
   charset: 'utf-8',
@@ -32,7 +32,7 @@ useHead({
     {
       hid: 'description',
       name: 'description',
-      content: 'Hey I\'m Simon — a front-end engineer with 15+ years in leading and crafting innovative web projects.'
+      content: 'Independent designer/developer portfolio — projects, updates, services, contact.'
     },
     {
       hid: 'theme-color',
@@ -52,12 +52,12 @@ useHead({
     {
       hid: 'og:url',
       name: 'og:url',
-      content: 'https://marchantweb.com'
+      content: 'https://your-portfolio.example.com'
     },
     {
       hid: 'og:title',
       name: 'og:title',
-      content: 'Simon Le Marchant | Independent Interactive Developer'
+      content: 'Your Name | Portfolio'
     },
     {
       hid: 'og:type',
@@ -67,22 +67,22 @@ useHead({
     {
       hid: 'og:image',
       name: 'og:image',
-      content: 'https://marchantweb.com/cover.jpg'
+      content: 'https://via.placeholder.com/1200x630.png?text=Portfolio+Cover'
     },
     {
       hid: 'og:image:alt',
       name: 'og:image:alt',
-      content: 'Simon Le Marchant | Independent Interactive Developer'
+      content: 'Your Name | Portfolio'
     },
     {
       hid: 'og:description',
       name: 'og:description',
-      content: 'Hey I\'m Simon — a front-end engineer with 15+ years in leading and crafting innovative web projects.'
+      content: 'Independent designer/developer portfolio — projects, updates, services, contact.'
     },
     {
       hid: 'og:site_name',
       name: 'og:site_name',
-      content: 'Simon Le Marchant | Independent Interactive Developer'
+      content: 'Your Name | Portfolio'
     },
     {
       hid: 'og:locale',
@@ -97,42 +97,42 @@ useHead({
     {
       hid: 'twitter:site',
       name: 'twitter:site',
-      content: '@marchantweb'
+      content: '@yourhandle'
     },
     {
       hid: 'twitter:creator',
       name: 'twitter:creator',
-      content: '@marchantweb'
+      content: '@yourhandle'
     },
     {
       hid: 'twitter:url',
       name: 'twitter:url',
-      content: 'https://marchantweb.com'
+      content: 'https://your-portfolio.example.com'
     },
     {
       hid: 'twitter:title',
       name: 'twitter:title',
-      content: 'Simon Le Marchant | Independent Interactive Developer'
+      content: 'Your Name | Portfolio'
     },
     {
       hid: 'twitter:description',
       name: 'twitter:description',
-      content: 'Hey I’m Simon, an independent interactive developer based in Orlando, Florida.'
+      content: 'Independent designer/developer portfolio — projects, updates, services, contact.'
     },
     {
       hid: 'twitter:image',
       name: 'twitter:image',
-      content: 'https://marchantweb.com/cover.jpg'
+      content: 'https://via.placeholder.com/1200x630.png?text=Portfolio+Cover'
     },
     {
       hid: 'twitter:image:alt',
       name: 'twitter:image:alt',
-      content: 'Simon Le Marchant | Independent Interactive Developer'
+      content: 'Your Name | Portfolio'
     }
   ],
   link: [
     {rel: 'icon', type: 'image/svg', href: '/icon-notext.svg'},
-    {rel: 'preconnect', href: 'https://api.marchantweb.com'},
+    {rel: 'preconnect', href: 'https://example.com'},
     {
       rel: 'stylesheet',
       href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'

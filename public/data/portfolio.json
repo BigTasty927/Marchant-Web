@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "project-one",
+    "title": "Project One",
+    "type": "Web Experience",
+    "listed": true,
+    "lead": "A short summary of the project highlighting goals and outcomes.",
+    "client": "Client Name",
+    "partner": "Studio / Agency",
+    "role": "Design, Development",
+    "completed": "2024",
+    "awards": "",
+    "cover": "/cover.jpg",
+    "videoWebm": "",
+    "videoMP4": "",
+    "featuredImage": "/cover.jpg",
+    "pageContent": [
+      {
+        "id": "b1",
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "plain_text": "This is a placeholder case study paragraph.",
+              "text": {"content": "This is a placeholder case study paragraph."},
+              "annotations": {"bold": false, "italic": false, "underline": false, "code": false, "color": ""}
+            }
+          ]
+        }
+      },
+      {
+        "id": "b2",
+        "type": "image",
+        "image": {
+          "file": {"url": "/cover.jpg"},
+          "caption": []
+        }
+      }
+    ]
+  },
+  {
+    "slug": "project-two",
+    "title": "Project Two",
+    "type": "Installations",
+    "listed": true,
+    "lead": "Another placeholder summary for a second project.",
+    "client": "Client Name",
+    "partner": "—",
+    "role": "Development",
+    "completed": "2023",
+    "awards": "",
+    "cover": "/cover.jpg",
+    "videoWebm": "",
+    "videoMP4": "",
+    "featuredImage": "/cover.jpg",
+    "pageContent": [
+      {
+        "id": "b3",
+        "type": "heading_2",
+        "heading_2": {"rich_text": [{"plain_text": "Overview", "text": {"content": "Overview"}, "annotations": {"bold": true, "italic": false, "underline": false, "code": false, "color": ""}}]}
+      },
+      {
+        "id": "b4",
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "plain_text": "More placeholder details for this project.",
+              "text": {"content": "More placeholder details for this project."},
+              "annotations": {"bold": false, "italic": false, "underline": false, "code": false, "color": ""}
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

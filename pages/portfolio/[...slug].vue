@@ -46,7 +46,7 @@
               <dd v-if="currentPortfolioItem['awards']" v-html="currentPortfolioItem['awards'].replace(/\n/g, '<br />')"></dd>
 
             </dl>
-            <ActionButton to="https://calendly.com/marchantweb/discovery" target="_blank" class="mb-6">
+            <ActionButton to="#contact" target="_blank" class="mb-6">
               <i class="fa-sharp fa-light fa-paper-plane"></i>
               Let's chat
             </ActionButton>
@@ -62,7 +62,7 @@
             <h1 class="mb-4 mb-lg-5" data-aos="fade-up">{{ currentPortfolioItem['lead'] }}</h1>
           </div>
           <NotionContent :blocks="currentPortfolioItem['pageContent']"/>
-          <p class="mt-7 mt-xxl-8 mt-xxxl-9 text-small text-end copyright d-none d-lg-block">Copyright © {{new Date().getFullYear()}} Marchant Web, LLC. All rights reserved.</p>
+          <p class="mt-7 mt-xxl-8 mt-xxxl-9 text-small text-end copyright d-none d-lg-block">Copyright © {{new Date().getFullYear()}} Your Name. All rights reserved.</p>
         </main>
       </div>
 
@@ -81,22 +81,22 @@ const currentPortfolioItem = computed(() => {
 });
 
 useHead({
-  title: 'Case Study: ' + currentPortfolioItem.value['title'] + ', ' + currentPortfolioItem.value['type'] + ' | ' + 'Marchant Web',
+  title: 'Case Study: ' + currentPortfolioItem.value['title'] + ', ' + currentPortfolioItem.value['type'] + ' | Your Name',
   meta: [
     { hid: 'description', name: 'description', content:  currentPortfolioItem.value['lead'] },
     { hid: 'og:title', property: 'og:title', content: currentPortfolioItem.value['title'] },
-    { hid: 'og:url', property: 'og:url', content: 'https://marchantweb.com' + route.fullPath },
+    { hid: 'og:url', property: 'og:url', content: 'https://your-portfolio.example.com' + route.fullPath },
     { hid: 'og:description', property: 'og:description', content: currentPortfolioItem.value['lead'] },
     { hid: 'og:image', property: 'og:image', content: currentPortfolioItem.value['cover']},
 
     // twitter card
     { hid: "twitter:title", name: "twitter:title", content: currentPortfolioItem.value['title'] },
-    { hid: "twitter:url", name: "twitter:url", content: 'https://marchantweb.com' + route.fullPath },
+    { hid: "twitter:url", name: "twitter:url", content: 'https://your-portfolio.example.com' + route.fullPath },
     { hid: 'twitter:description', name: 'twitter:description', content: currentPortfolioItem.value['lead'] },
     { hid: "twitter:image", name: "twitter:image", content: currentPortfolioItem.value['cover']},
   ],
   link: [
-    { hid: "canonical", rel: "canonical", href: 'https://marchantweb.com' + route.fullPath },
+    { hid: "canonical", rel: "canonical", href: 'https://your-portfolio.example.com' + route.fullPath },
   ],
   bodyAttrs: {
     class: 'enable-scroll'

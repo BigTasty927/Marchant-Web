@@ -2,7 +2,7 @@
   <section class="page">
 
     <div id="awwwards" class="d-none d-lg-block"><a
-        href="https://www.awwwards.com/sites/marchant-web" target="_blank" class="mouse-md">
+        href="#" target="_blank" class="mouse-md">
       <svg width="53.08" height="171.358">
         <path class="js-color-bg" fill="white" d="M0 0h53.08v171.358H0z"></path>
         <g class="js-color-text" fill="black">

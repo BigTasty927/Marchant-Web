@@ -1,16 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     site: {
-        name: 'Marchant Web',
-        url: 'https://marchantweb.com',
-        description: 'Hey I\'m Simon — a front-end engineer with 15+ years in leading and crafting innovative web projects.',
+        name: 'Your Name Portfolio',
+        url: 'https://your-portfolio.example.com',
+        description: 'Independent designer/developer portfolio — projects, updates, services, contact.',
         defaultLocale: 'en',
     },
-    sitemap: {
-        sources: [
-            'https://api.marchantweb.com/sitemap',
-        ]
-    },
+    sitemap: {},
     app: {
         pageTransition: {name: 'page', mode: 'out-in'},
         head: {
@@ -27,7 +23,7 @@ export default defineNuxtConfig({
         }
     },
     gtag: {
-        id: 'G-E1LXB89D1E'
+        id: 'G-XXXXXXX'
     },
     devtools: {
         enabled: true,

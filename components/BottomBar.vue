@@ -2,19 +2,19 @@
   <div class="bottom-bar row pb-2 pb-md-3 align-items-end d-flex justify-content-between">
     <div class="col-auto d-flex align-items-center" itemscope itemtype="https://schema.org/Person">
       <MWIcon :size="45" class="pb-2" type="notext"/>
-      <h1 class="bottom-navigation__title ms-4"><span itemprop="name">Simon Le Marchant</span><br><span
-          itemprop="jobTitle">Independent Interactive Developer</span></h1>
+      <h1 class="bottom-navigation__title ms-4"><span itemprop="name">Your Name</span><br><span
+          itemprop="jobTitle">Designer / Developer</span></h1>
     </div>
     <div class="col-auto mb-3 d-flex align-items-center">
-      <a href="https://twitter.com/marchantweb" target="_blank" class="me-4 text-decoration-none"
+      <a href="#" target="_blank" class="me-4 text-decoration-none"
                 aria-label="Find me on Twitter"><i
           class="fa-brands fa-x-twitter fa-xl twitter-icon mouse-sm d-none d-xl-inline text-decoration-none"
           title="Find me on Twitter"></i></a>
-      <a href="https://github.com/marchantweb/Marchant-Web" target="_blank" class="me-4 text-decoration-none"
+      <a href="#" target="_blank" class="me-4 text-decoration-none"
                 aria-label="View this site on GitHub"><i
           class="fa-brands fa-github fa-xl github-icon mouse-sm d-none d-xl-inline text-decoration-none"
           title="View this site on GitHub"></i></a>
-      <a href="https://www.linkedin.com/in/marchantweb/" target="_blank" class="me-5 text-decoration-none"
+      <a href="#" target="_blank" class="me-5 text-decoration-none"
                 aria-label="Find me on LinkedIn"><i
           class="fa-brands fa-linkedin fa-xl linkedin-icon mouse-sm d-none d-xl-inline text-decoration-none"
           title="Find me on LinkedIn"></i></a>
