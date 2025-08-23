@@ -11,9 +11,9 @@
             <span class="code--green">&nbsp;not</span>
             <span class="code--white">&nbsp;found</span>
           </CodeLine>
-          <h1 class="mb-5 lead">OH SH***T;</h1>
+          <h1 class="mb-5 lead">Page Not Found</h1>
           <p class="text-light mb-6">
-            Looks you've navigated to a broken link.<br><em>Try not doing that again in the future.</em>
+            Looks like you've navigated to a broken link.<br><em>Please use the menu to continue.</em>
           </p>
           <ActionButton to="/" data-aos="fade-up">
             <i class="fa-sharp fa-solid fa-arrow-up-left"></i>
