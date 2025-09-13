@@ -1,56 +1,59 @@
-# Marchant Web '24
+# Paper Trading App
 
-![Homepage Screenshot](public/cover.jpg)
+A simple full-stack paper trading app with a Node/TypeScript backend (Express + WebSocket) and a Vite React frontend.
 
-This repo contains the latest code for [MarchantWeb.com](https://marchantweb.com). It's a Nuxt 3 project that centers around a WebGL visualization that ebs and flows into each page.
+## Quickstart
 
-I've made the code open-source, with the obvious caveat that it's meant to act as a reference for learning and developing your own creative website, and that you cannot clone it and pretend to be me.
-
-For the sake of security, the connection to Notion's API is abstracted behind a service at `api.marchantweb.com`, which is not open-source. You won't find any secret keys here.
-
-### Technology 🚀
-
-- Nuxt 3 / Vue 3
-- Notion _(CMS)_
-- Cloudinary _(Media Delivery)_
-- Heroku _(Deployment)_
-- CloudFlare _(DNS)_
-
-## Setup
-
-Make sure to install the dependencies:
+1. Start the backend:
 
 ```bash
-# yarn
-yarn install
-
-# npm
+cd server
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Runs a development server with HMR _(Hot Module Replacement)_ on http://localhost:3000
-
-```bash
 npm run dev
 ```
 
-## Production
+Backend runs at `http://localhost:4000` with WebSocket at `ws://localhost:4000/ws`.
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
+2. Start the frontend in a new terminal:
 
 ```bash
-npm run preview
+cd web
+npm install
+npm run dev
 ```
 
-### Thanks for checking out this repo!
+Open the printed local URL (typically `http://localhost:5173`).
+
+## Features
+
+- Mock market data with random-walk quotes
+- REST API: symbols, quote, portfolio, orders
+- WebSocket: live quotes stream with symbol subscription
+- Simple portfolio accounting and JSON persistence
+- React UI: quotes table, order ticket, portfolio panel
+
+## Configuration
+
+- Frontend `.env`: set `VITE_API_BASE` (defaults to `http://localhost:4000`).
+- Server port: `PORT` env var (defaults to 4000).
+
+## API
+
+- GET `/api/symbols`
+- GET `/api/quote/:symbol`
+- GET `/api/portfolio`
+- POST `/api/orders` body:
+```json
+{ "side": "BUY|SELL", "symbol": "AAPL", "quantity": 10, "type": "MARKET|LIMIT", "price": 150 }
+```
+
+## WebSocket
+
+- Path: `/ws`
+- Subscribe message: `{ "type": "subscribe", "symbols": ["AAPL", "MSFT"] }`
+- Quotes message: `{ "type": "quotes", "quotes": [ ... ] }`
+
+## Scripts
+
+- Server: `npm run dev` (dev), `npm run build && npm start` (prod)
+- Web: `npm run dev` (dev), `npm run build` (prod)
