@@ -20,7 +20,7 @@
   "dependencies": {
     "@vueuse/core": "^10.7.0",
     "aos": "^2.3.4",
-    "gsap": "npm:@gsap/shockingly@^3.12.3",
+    "gsap": "^3.15.0",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
     "sugar": "^2.0.6"
