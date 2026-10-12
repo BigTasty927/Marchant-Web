@@ -11,15 +11,10 @@
             <div class="d-flex flex-row align-items-center mb-5">
               <img src="~assets/images/headshot.jpg" alt="Hey I'm Simon" class="headshot me-4 me-lg-5">
             </div>
-            <h2 class="my-4" itemprop="description">Hey I'm Simon — an independent interactive developer with 15+ years of
-              crafting innovative web projects.</h2>
+            <h2 class="my-4" itemprop="description">Hey, I’m Thomas — an AI systems builder focused on intelligent experiences and business transformation.</h2>
             <div itemprop="knowsAbout">
               <p>
-                I build things with <a
-                  href="https://vuejs.org/" target="_blank" class="mouse-sm">Vue</a> and it's ecosystem of tooling.
-                Before specializing in the frontend, I was a full-stack developer putting together enterprise-scale
-                websites. I enjoy challenging Chrome and Safari to a battle of wits <em>(or patience)</em> and
-                architecting simple solutions to complex problems.
+              I’m interested in the intersection of AI, automation, software, business strategy, and experience design. I build systems that help organizations reduce friction, operate more intelligently, and create more personalized, meaningful experiences for the people they serve.
               </p>
               <p>
                 I've worked with a wide range of teams, from startups to Fortune 500 companies; typically in a principal
