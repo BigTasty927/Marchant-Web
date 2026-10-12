@@ -49,18 +49,19 @@
             </div>
           </div>
           <div class="col-12 col-md-8 col-lg-7 col-xl-6 col-xxl-5 mb-4 mb-lg-8">
-            <h3 class="mt-5 mb-4">Availability</h3>
+            <h3 class="mt-5 mb-4">What I'm interested in</h3>
             <p>
-              I'm interested in collaborating with people who are building creative websites, interactive experiences,
-              or bespoke interfaces — especially those with graphics so intense that my GPU catches fire 🔥
+             I’m especially interested in opportunities where AI, automation, software, and business strategy intersect
+              — whether that means designing intelligent workflows, building AI-enabled products, improving customer experiences, 
+              or helping organizations rethink how work gets done.
             </p>
             <p class="mb-5">
-              While I always have some sort of ongoing work, I'm open to discussing new opportunities. If you
-              have a project in mind, don't hesitate to reach out.
+              I’m continuing to build at the intersection of AI systems and business transformation, and I’m always interested in
+              collaborating with founders, teams, and organizations exploring what that future should look like.
             </p>
-            <ActionButton to="https://calendly.com/marchantweb/discovery" target="_blank" class="mb-6">
+            <ActionButton target="_blank" class="mb-6">
               <i class="fa-sharp fa-light fa-paper-plane"></i>
-              Let's chat
+              Let's build something ->
             </ActionButton>
           </div>
         </main>
