@@ -2,8 +2,8 @@
   <div class="bottom-bar row pb-2 pb-md-3 align-items-end d-flex justify-content-between">
     <div class="col-auto d-flex align-items-center" itemscope itemtype="https://schema.org/Person">
       <MWIcon :size="45" class="pb-2" type="notext"/>
-      <h1 class="bottom-navigation__title ms-4"><span itemprop="name">Simon Le Marchant</span><br><span
-          itemprop="jobTitle">Independent Interactive Developer</span></h1>
+      <h1 class="bottom-navigation__title ms-4"><span itemprop="name">Thomas Clarke</span><br><span
+          itemprop="jobTitle">AI Transformation Consultant</span></h1>
     </div>
     <div class="col-auto mb-3 d-flex align-items-center">
       <a href="https://twitter.com/marchantweb" target="_blank" class="me-4 text-decoration-none"
