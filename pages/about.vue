@@ -14,17 +14,19 @@
             <h2 class="my-4" itemprop="description">Hey, I’m Thomas — an AI systems builder focused on intelligent experiences and business transformation.</h2>
             <div itemprop="knowsAbout">
               <p>
-              I’m interested in the intersection of AI, automation, software, business strategy, and experience design. I build systems that help organizations reduce friction, operate more intelligently, and create more personalized, meaningful experiences for the people they serve.
+              I’m interested in the intersection of AI, automation, software, business strategy, and experience design. 
+                I build systems that help organizations reduce friction, operate more intelligently, and create more personalized,
+                meaningful experiences for the people they serve.
               </p>
               <p>
-                I've worked with a wide range of teams, from startups to Fortune 500 companies; typically in a principal
-                technical role. Usually I partner with agencies, design studios, or startups to provide sprints of
-                focused dev work.
+                My background is in Business & Management, but my work has increasingly moved into the technical systems 
+                behind modern businesses — automation, APIs, AI agents, databases, applications, and the infrastructure
+                that connects them.
               </p>
               <p>
-                On a personal note... I live in Orlando FL with my wife and daughter. I <em
-                  style="text-decoration: underline">want</em> to say that I'm a big fan of the outdoors and that I like
-                long walks on the beach; but instead my passion is programming so I'm usually just at my desk 🧑‍💻
+                What ties it all together is a belief I’ve carried for years: as technology makes products, information, 
+                software, and now intelligence easier to reproduce, businesses will increasingly differentiate through 
+                experience, trust, personalization, and transformation.
               </p>
             </div>
             <h3 class="mt-5 mb-3">Some teams I've worked with:</h3>
