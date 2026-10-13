@@ -28,6 +28,9 @@
                 software, and now intelligence easier to reproduce, businesses will increasingly differentiate through 
                 experience, trust, personalization, and transformation.
               </p>
+              <p class="mb-0">
+                <NuxtLink to="/north-star" class="mouse-sm">Read my North Star ➤</NuxtLink>
+              </p>
             </div>
             <h3 class="mt-5 mb-3">Some teams I've worked with:</h3>
           </div>

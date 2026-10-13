@@ -45,18 +45,18 @@
     </CodeLine>
 
     <!-- Yellow to Orange Gradient Bar -->
-    <div class="orange-bar" v-if="route.path === '/about' || route.path === '/contact'"/>
+    <div class="orange-bar" v-if="route.path === '/about' || route.path === '/contact' || route.path === '/north-star'"/>
 
     <!-- JS Icon -->
     <Transition name="icon-pop">
       <img src="~/assets/images/hero-js-icon.svg" alt="JavaScript Icon" class="js-icon"
-           v-if="route.path === '/about' || route.path === '/contact'">
+           v-if="route.path === '/about' || route.path === '/contact' || route.path === '/north-star'">
     </Transition>
 
     <!-- Vue Icon -->
     <Transition name="icon-pop">
       <img src="~/assets/images/hero-vue-icon.svg" alt="Vue 3 Icon" class="vue-icon"
-           v-if="route.path === '/about' || route.path === '/contact'">
+           v-if="route.path === '/about' || route.path === '/contact' || route.path === '/north-star'">
     </Transition>
 
     <!-- WebGL Container -->
@@ -279,7 +279,7 @@ watch(() => route.path, (newVal, oldVal) => {
  */
 const heroClasses = computed(() => {
   return {
-    'hero--about': route.path === '/about',
+    'hero--about': route.path === '/about' || route.path === '/north-star',
     'hero--contact': route.path === '/contact',
     'hero--portfolio-single': route.path.startsWith('/portfolio/'),
     'hero--article-single': route.path.startsWith('/article/'),

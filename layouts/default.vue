@@ -50,7 +50,7 @@ const showBottomBar = computed(() => {
 })
 
 const showNavigation = computed(() => {
-  return route.path !== '/about' && route.path !== '/contact'
+  return route.path !== '/about' && route.path !== '/contact' && route.path !== '/north-star'
 })
 
 </script>
