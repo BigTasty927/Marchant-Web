@@ -32,7 +32,7 @@
                 <NuxtLink to="/north-star" class="mouse-sm">Read my North Star ➤</NuxtLink>
               </p>
             </div>
-            <h3 class="mt-5 mb-3">Some teams I've worked with:</h3>
+            <h3 class="mt-5 mb-3">Exploration through Implementation:</h3>
           </div>
           <div class="col-12 col-md-8 col-lg-7 col-xl-6 col-xxxl-6">
             <div class="client-logo__container">
