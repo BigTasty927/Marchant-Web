@@ -31,6 +31,14 @@
               <p class="mb-0">
                 <NuxtLink to="/north-star" class="mouse-sm">Read my North Star ➤</NuxtLink>
               </p>
+               <div class="col-12 col-md-8 col-lg-7 col-xl-6 col-xxl-5 mb-4 mb-lg-8">
+            <h3 class="mt-5 mb-4">What I believe in</h3>
+            <p>
+             AI is not valuable simply because it can automate more work. Its greater potential is helping businesses understand people better, reduce unnecessary friction, personalize intelligently, and help customers and employees achieve better outcomes.
+I believe the strongest intelligent systems create value through three principles:
+Clarity — remove complexity and friction.  Connection — understand context, preferences, and relationships.  Control — preserve human agency, visibility, and judgment.
+AI itself is not the differentiator. What a business enables with it is.
+            </p>
             </div>
             <h3 class="mt-5 mb-3">Exploration through Implementation:</h3>
           </div>
