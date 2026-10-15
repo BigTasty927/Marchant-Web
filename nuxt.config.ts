@@ -1,39 +1,23 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     site: {
-        name: 'Marchant Web',
-        url: 'https://marchantweb.com',
-        description: 'Hey I\'m Simon — a front-end engineer with 15+ years in leading and crafting innovative web projects.',
+        name: 'Thomas Clarke',
+        url: 'https://thomasclarke.studio',
+        description: 'Building intelligent systems. Creating meaningful experiences.',
         defaultLocale: 'en',
     },
-    sitemap: {
-        sources: [
-            'https://api.marchantweb.com/sitemap',
-        ]
-    },
     app: {
-        pageTransition: {name: 'page', mode: 'out-in'},
         head: {
-            meta: [{name: 'viewport', content: 'width=device-width, initial-scale=1'}],
-        }
+            htmlAttrs: {lang: 'en'},
+            meta: [
+                {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+                {name: 'theme-color', content: '#f4f1ea'},
+            ],
+            link: [
+                {rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg'},
+            ],
+        },
     },
-    modules: ['@nuxtseo/module', 'nuxt-gtag'],
-    css: ["@/assets/scss/app.scss"],
-    vite: {
-        server: {
-            hmr: {
-                port: 5050
-            }
-        }
-    },
-    gtag: {
-        id: 'G-E1LXB89D1E'
-    },
-    devtools: {
-        enabled: true,
-
-        timeline: {
-            enabled: true
-        }
-    }
-});
+    modules: ['@nuxtseo/module'],
+    css: ['@/assets/scss/app.scss'],
+})
