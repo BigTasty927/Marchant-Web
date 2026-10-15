@@ -1,0 +1,81 @@
+/**
+ * Names only. Summary, technologies, outcomes, year, link, and image
+ * stay empty until they are documented. `featured` only chooses the
+ * homepage preview — it is not a claim that a case study is finished.
+ */
+export const projects = [
+    {
+        id: 'savevault',
+        name: 'SaveVault',
+        status: 'todo',
+        summary: null,
+        technologies: [],
+        outcomes: null,
+        year: null,
+        href: null,
+        image: null,
+        featured: true,
+    },
+    {
+        id: 'itinafairy',
+        name: 'ItinAFairy',
+        status: 'todo',
+        summary: null,
+        technologies: [],
+        outcomes: null,
+        year: null,
+        href: null,
+        image: null,
+        featured: true,
+    },
+    {
+        id: 'blackbox-command-center',
+        name: 'Blackbox Command Center',
+        status: 'todo',
+        summary: null,
+        technologies: [],
+        outcomes: null,
+        year: null,
+        href: null,
+        image: null,
+        featured: true,
+    },
+    {
+        id: 'leadharvest-ai',
+        name: 'LeadHarvest AI',
+        status: 'todo',
+        summary: null,
+        technologies: [],
+        outcomes: null,
+        year: null,
+        href: null,
+        image: null,
+        featured: false,
+    },
+    {
+        id: 'mealcraft',
+        name: 'MealCraft',
+        status: 'todo',
+        summary: null,
+        technologies: [],
+        outcomes: null,
+        year: null,
+        href: null,
+        image: null,
+        featured: false,
+    },
+    {
+        id: 'clarityquest',
+        name: 'ClarityQuest',
+        status: 'todo',
+        summary: null,
+        technologies: [],
+        outcomes: null,
+        year: null,
+        href: null,
+        image: null,
+        featured: false,
+    },
+]
+
+export const featuredProjects = projects.filter((project) => project.featured)

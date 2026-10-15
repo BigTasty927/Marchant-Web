@@ -1,0 +1,36 @@
+:root {
+  --color-bg: #f4f1ea;
+  --color-surface: #fffcf7;
+  --color-text: #1c1a17;
+  --color-muted: #5e584f;
+  --color-line: #ddd6c8;
+  --color-inverse: #1c1a17;
+  --color-inverse-text: #f4f1ea;
+  --color-todo: #8a4b12;
+
+  --font-sans: "Avenir Next", "Segoe UI", sans-serif, system-ui;
+  --font-serif: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+
+  --text-sm: 0.875rem;
+  --text-body: 1.0625rem;
+  --text-lead: 1.25rem;
+  --leading-body: 1.65;
+  --leading-tight: 1.08;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 7rem;
+
+  --container: 72rem;
+  --measure: 40rem;
+  --header-height: 4.25rem;
+  --radius: 2px;
+
+  color-scheme: light;
+}
