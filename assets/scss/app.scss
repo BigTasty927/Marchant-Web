@@ -298,6 +298,22 @@ h3 {
   color: var(--color-muted);
 }
 
+.portrait {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: var(--space-5);
+}
+
+.principles {
+  max-width: var(--measure);
+  margin: 0;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: var(--space-3);
+}
+
 .logo-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

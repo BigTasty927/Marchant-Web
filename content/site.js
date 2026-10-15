@@ -15,7 +15,7 @@ export const home = {
 }
 
 export const contactChannels = [
-    {label: 'Email', href: null},
-    {label: 'GitHub', href: null},
-    {label: 'LinkedIn', href: null},
+    {label: 'Email', href: 'mailto:tclarke9271@gmail.com', value: 'tclarke9271@gmail.com'},
+    {label: 'GitHub', href: null, value: null},
+    {label: 'LinkedIn', href: null, value: null},
 ]
