@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import {caseStudiesBySlug} from './content/case-studies/index.js'
+
 export default defineNuxtConfig({
     site: {
         name: 'Thomas Clarke',
@@ -19,5 +21,8 @@ export default defineNuxtConfig({
         },
     },
     modules: ['@nuxtseo/module'],
+    sitemap: {
+        urls: Object.keys(caseStudiesBySlug).map((slug) => `/work/${slug}`),
+    },
     css: ['@/assets/scss/app.scss'],
 })

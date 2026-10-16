@@ -1,0 +1,258 @@
+.project-card__body {
+  display: contents;
+}
+
+.project-card--link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-card--link:hover {
+  border-color: var(--color-text);
+}
+
+.project-card__cue {
+  margin-top: auto;
+  color: var(--color-text);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.status {
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.status--todo {
+  color: var(--color-todo);
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chip-list li {
+  border: 1px solid var(--color-line);
+  padding: 0.2rem 0.55rem;
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+}
+
+.case-study {
+  padding-bottom: var(--space-8);
+}
+
+.case-hero {
+  padding-top: var(--space-7);
+}
+
+.case-hero .display {
+  max-width: 12ch;
+}
+
+.case-overview {
+  max-width: var(--measure);
+  margin-top: var(--space-5);
+}
+
+.case-meta {
+  display: grid;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+  padding: 0;
+}
+
+.case-meta div {
+  display: grid;
+  gap: 0.2rem;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-line);
+}
+
+.case-meta dt {
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.case-meta dd {
+  margin: 0;
+}
+
+.case-figure {
+  margin-top: var(--space-6);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+}
+
+.case-figure img {
+  width: 100%;
+}
+
+.case-figure--empty {
+  min-height: 16rem;
+  display: grid;
+  place-items: center;
+  padding: var(--space-6);
+  text-align: center;
+}
+
+.case-figure--empty figcaption {
+  max-width: 36rem;
+  color: var(--color-muted);
+}
+
+.case-figure--empty .eyebrow {
+  display: block;
+  margin-bottom: var(--space-3);
+}
+
+.case-section {
+  padding-top: var(--space-8);
+}
+
+.case-section .lede {
+  margin-bottom: var(--space-5);
+}
+
+.case-note {
+  max-width: var(--measure);
+  margin-top: var(--space-4);
+  padding-left: var(--space-4);
+  border-left: 2px solid var(--color-line);
+  color: var(--color-muted);
+}
+
+.workflow {
+  display: grid;
+  gap: 0;
+  margin: var(--space-6) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.workflow__step {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-4);
+  position: relative;
+  padding-bottom: var(--space-5);
+}
+
+.workflow__step::before {
+  content: "";
+  position: absolute;
+  top: 1.6rem;
+  bottom: 0;
+  left: 1.15rem;
+  width: 1px;
+  background: var(--color-line);
+}
+
+.workflow__step:last-child::before {
+  display: none;
+}
+
+.workflow__index {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  z-index: 1;
+  background: var(--color-bg);
+  border: 1px solid var(--color-text);
+  font-family: var(--font-serif);
+  font-size: var(--text-sm);
+}
+
+.workflow__step h3 {
+  margin-bottom: 0.25rem;
+}
+
+.workflow__step p {
+  max-width: var(--measure);
+  color: var(--color-muted);
+}
+
+.decision-list {
+  display: grid;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+}
+
+.decision {
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+}
+
+.decision h3 {
+  margin-bottom: var(--space-4);
+}
+
+.decision dl {
+  display: grid;
+  gap: var(--space-4);
+  margin: 0;
+}
+
+.decision dt {
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.decision dd {
+  margin: 0.25rem 0 0;
+}
+
+.result-groups {
+  display: grid;
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+}
+
+.result-list {
+  max-width: var(--measure);
+  margin: var(--space-3) 0 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.case-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: var(--space-8);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--color-line);
+}
+
+@media (min-width: 720px) {
+  .case-meta {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .decision dl {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1080px) {
+  .case-meta {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}

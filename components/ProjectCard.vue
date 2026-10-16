@@ -1,9 +1,9 @@
 <template>
-  <article :id="project.id" class="project-card">
-    <p class="todo">TODO</p>
-    <h3>{{ project.name }}</h3>
-    <p v-if="project.summary">{{ project.summary }}</p>
-    <p v-else>Description, technologies, and outcomes are not documented yet.</p>
+  <NuxtLink v-if="project.href" :id="project.id" :to="project.href" class="project-card project-card--link">
+    <ProjectCardBody :project="project"/>
+  </NuxtLink>
+  <article v-else :id="project.id" class="project-card">
+    <ProjectCardBody :project="project"/>
   </article>
 </template>
 
