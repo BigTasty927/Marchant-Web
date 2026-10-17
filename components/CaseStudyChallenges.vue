@@ -16,7 +16,7 @@
             <dd>{{ item.approach }}</dd>
           </div>
           <div>
-            <dt>Result</dt>
+            <dt>Outcome</dt>
             <dd>{{ item.result }}</dd>
           </div>
         </dl>

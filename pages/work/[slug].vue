@@ -21,10 +21,18 @@
           <div v-if="section.paragraphs" class="prose">
             <p v-for="(paragraph, paragraphIndex) in section.paragraphs" :key="paragraphIndex">{{ paragraph }}</p>
           </div>
-          <p v-if="section.note" class="case-note">{{ section.note }}</p>
-          <ul v-if="section.type === 'technologies'" class="chip-list" aria-label="Technologies described in project materials">
+          <div v-if="section.type === 'technologies' && section.groups" class="tech-groups">
+            <section v-for="group in section.groups" :key="group.title" class="tech-group">
+              <h3>{{ group.title }}</h3>
+              <ul class="chip-list">
+                <li v-for="item in group.items" :key="item">{{ item }}</li>
+              </ul>
+            </section>
+          </div>
+          <ul v-else-if="section.type === 'technologies'" class="chip-list" aria-label="Technologies">
             <li v-for="item in section.items" :key="item">{{ item }}</li>
           </ul>
+          <p v-if="section.note" class="case-note">{{ section.note }}</p>
           <div v-if="section.type === 'results'" class="result-groups">
             <section v-for="group in section.groups" :key="group.title" class="result-group">
               <h3>{{ group.title }}</h3>

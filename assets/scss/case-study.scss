@@ -22,12 +22,12 @@
   color: var(--color-muted);
   font-size: var(--text-sm);
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 .status--todo {
   color: var(--color-todo);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .chip-list {
@@ -63,8 +63,13 @@
   margin-top: var(--space-5);
 }
 
+.case-overview + .case-overview {
+  margin-top: var(--space-4);
+}
+
 .case-meta {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   gap: var(--space-4);
   margin-top: var(--space-6);
   padding: 0;
@@ -151,11 +156,11 @@
 .workflow__step::before {
   content: "";
   position: absolute;
-  top: 1.6rem;
+  top: 2.4rem;
   bottom: 0;
-  left: 1.15rem;
-  width: 1px;
-  background: var(--color-line);
+  left: calc(1.2rem - 1px);
+  width: 2px;
+  background: var(--color-muted);
 }
 
 .workflow__step:last-child::before {
@@ -217,6 +222,17 @@
   margin: 0.25rem 0 0;
 }
 
+.tech-groups {
+  display: grid;
+  gap: var(--space-5);
+  margin-top: var(--space-6);
+}
+
+.tech-group h3 {
+  margin-bottom: var(--space-3);
+  font-size: 1.15rem;
+}
+
 .result-groups {
   display: grid;
   gap: var(--space-6);
@@ -242,17 +258,11 @@
 }
 
 @media (min-width: 720px) {
-  .case-meta {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .tech-groups {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .decision dl {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 1080px) {
-  .case-meta {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }

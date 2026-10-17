@@ -2,16 +2,13 @@
   <header class="case-hero">
     <p class="eyebrow">{{ study.type }}</p>
     <h1 class="display">{{ study.name }}</h1>
-    <p class="lede">{{ study.tagline }} {{ study.summary }}</p>
-    <p class="case-overview">{{ study.overview }}</p>
+    <p class="lede">{{ study.tagline }}</p>
+    <p v-if="study.summary" class="case-overview">{{ study.summary }}</p>
+    <p v-if="study.overview" class="case-overview">{{ study.overview }}</p>
     <dl class="case-meta">
       <div>
         <dt>Role</dt>
         <dd>{{ study.role.join(' · ') }}</dd>
-      </div>
-      <div>
-        <dt>Type</dt>
-        <dd>{{ study.type }}</dd>
       </div>
       <div>
         <dt>Focus</dt>

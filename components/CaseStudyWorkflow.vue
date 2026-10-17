@@ -4,7 +4,7 @@
     <h2 :id="section.id">{{ section.title }}</h2>
     <p v-if="section.lede" class="lede">{{ section.lede }}</p>
     <p v-if="section.note" class="case-note">{{ section.note }}</p>
-    <ol class="workflow">
+    <ol class="workflow" role="list">
       <li v-for="(step, index) in section.steps" :key="step.title" class="workflow__step">
         <span class="workflow__index" aria-hidden="true">{{ String(index + 1).padStart(2, '0') }}</span>
         <div>
